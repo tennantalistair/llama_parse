@@ -5,7 +5,6 @@ import uuid
 from typing import Dict, Any
 import os
 from llama_parse import LlamaParse
-from llama_parse.plugins import PDFPlumber
 
 app = FastAPI(title="Document Parser API")
 
